@@ -1,5 +1,6 @@
 from core.clarifier import build_followup_text, generate_questions
 from core.structurer import structure_report
+from core.generator import issue_from_brief, to_markdown
 
 MAX_ROUNDS = 2
 
@@ -30,3 +31,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    issue = issue_from_brief(brief)
+    print("\n" + "=" * 60)
+    print("GITHUB ISSUE")
+    print("=" * 60)
+    print(to_markdown(issue))
