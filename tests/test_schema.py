@@ -21,3 +21,14 @@ def test_complete_report_has_no_missing_fields():
         environment=Environment(os="macOS 15"),
     )
     assert brief.missing_fields() == []
+
+def test_device_alone_is_not_enough_environment():
+    brief = BugBrief(
+        title="Login fails",
+        summary="Login fails on iPhone.",
+        steps_to_reproduce=["Open app", "Tap Login"],
+        expected_behavior="User is logged in",
+        actual_behavior="Error 'Invalid session' appears",
+        environment=Environment(device="iPhone"),
+    )
+    assert brief.missing_fields() == ["environment"]
