@@ -1,0 +1,438 @@
+[
+  {
+    "id": "vague-01",
+    "raw": {
+      "issue": {
+        "title": "User reports app is broken",
+        "labels": [
+          "bug",
+          "needs-info"
+        ],
+        "body": "## Summary\nUser reports that the app is broken.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\n_Not provided_\n\n## Environment\n_Not provided_\n\n## Additional Notes\n_Not provided_"
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 1
+    },
+    "brief": {
+      "issue": {
+        "title": "Application reported as broken without specific details",
+        "labels": [
+          "bug",
+          "needs-info"
+        ],
+        "body": "## Summary\nThe user reports that the application is broken, but did not provide specific details, symptoms, or steps to reproduce.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\n_Not provided_\n\n## Environment\n_Not provided_\n\n## Additional Notes\nAssumptions:\n- Assumed the issue has occurred previously based on the user stating 'AGAIN'."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 1
+    }
+  },
+  {
+    "id": "rant-02",
+    "raw": {
+      "issue": {
+        "title": "Profile picture upload spins indefinitely without completing",
+        "labels": [
+          "bug",
+          "upload",
+          "needs-info"
+        ],
+        "body": "## Summary\nAttempting to upload a profile picture results in an indefinite spinning state without completing.\n\n## Steps to Reproduce\n1. Attempt to upload a profile picture.\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\nThe upload indicator spins forever and nothing happens.\n\n## Environment\n_Not provided_\n\n## Additional Notes\n- The user noted this behavior has been occurring since yesterday.\n- Other issues mentioned: User noted that \"dark mode looks weird\"."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": true,
+      "invented_details": [],
+      "actionability": 3
+    },
+    "brief": {
+      "issue": {
+        "title": "Profile picture upload hangs indefinitely with continuous loading spinner",
+        "labels": [
+          "bug",
+          "upload",
+          "needs-info"
+        ],
+        "body": "## Summary\nAttempting to upload a profile picture results in an indefinite loading spinner without the upload completing or failing.\n\n## Steps to Reproduce\n1. Attempt to upload a profile picture.\n\n## Expected Behavior\nThe profile picture should upload successfully.\n\n## Actual Behavior\nUpload spinner runs continuously and the upload does not complete.\n\n## Environment\n_Not provided_\n\n## Additional Notes\n- Frequency: always\n- Assumptions: Assumed the user expected the profile picture upload to complete successfully.\n- Other issues: Dark mode display looks abnormal."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": true,
+      "invented_details": [],
+      "actionability": 3
+    }
+  },
+  {
+    "id": "error-03",
+    "raw": {
+      "issue": {
+        "title": "Error 503: Service Unavailable when clicking checkout",
+        "labels": [
+          "bug",
+          "payments"
+        ],
+        "body": "## Summary\nUser receives `Error 503: Service Unavailable` when attempting to checkout with items in the cart.\n\n## Steps to Reproduce\n1. Have 3 items in the cart.\n2. Hit checkout.\n\n## Expected Behavior\nUser is taken to the payment page.\n\n## Actual Behavior\n`Error 503: Service Unavailable` is encountered.\n\n## Environment\n- Browser: Chrome\n- Device / OS: Windows laptop\n\n## Additional Notes\n_Not provided_"
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": true,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 5
+    },
+    "brief": {
+      "issue": {
+        "title": "503 Service Unavailable error when proceeding to checkout",
+        "labels": [
+          "bug",
+          "payments",
+          "severity: high"
+        ],
+        "body": "## Summary\nUsers encounter an `Error 503: Service Unavailable` error when attempting to proceed to checkout from a cart containing three items.\n\n## Steps to Reproduce\n1. Add 3 items to the cart.\n2. Click the checkout button.\n\n## Expected Behavior\nProceed to the payment page.\n\n## Actual Behavior\nDisplays `Error 503: Service Unavailable` upon clicking checkout.\n\n## Environment\n- OS: Windows\n- Browser: Chrome\n- Device: laptop\n- App Version: _Not provided_\n\n## Additional Notes\n- Assumptions: Assumed core checkout feature is completely blocked with no workaround."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": true,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 4
+    }
+  },
+  {
+    "id": "partial-04",
+    "raw": {
+      "issue": {
+        "title": "Login does not work on iPhone",
+        "labels": [
+          "bug",
+          "auth",
+          "needs-info"
+        ],
+        "body": "## Summary\nLogin does not work on iPhone.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\nLogin does not work.\n\n## Environment\niPhone\n\n## Additional Notes\nUser noted that login worked last week. Specific iPhone model, OS version, and detailed reproduction steps were not provided."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 1
+    },
+    "brief": {
+      "issue": {
+        "title": "Unable to log in on iPhone",
+        "labels": [
+          "bug",
+          "auth",
+          "needs-info"
+        ],
+        "body": "## Summary\nThe user reports being unable to log in on an iPhone, noting that login was functioning properly the previous week.\n\n## Steps to Reproduce\n1. Attempt to log in on an iPhone\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\n_Not provided_\n\n## Environment\n- Device: iPhone\n\n## Additional Notes\n- Assumptions: Assumed the issue currently prevents the user from successfully logging in."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 1
+    }
+  },
+  {
+    "id": "detailed-05",
+    "raw": {
+      "issue": {
+        "title": "Email alerts toggle reverts to on after reopening Settings",
+        "labels": [
+          "bug",
+          "settings"
+        ],
+        "body": "## Summary\nThe 'Email alerts' toggle reverts back to on after being turned off and navigating away from Settings.\n\n## Steps to Reproduce\n1. Open Settings > Notifications.\n2. Toggle 'Email alerts' off.\n3. Go back.\n4. Reopen Settings.\n\n## Expected Behavior\nThe toggle should stay off.\n\n## Actual Behavior\nThe toggle is on again.\n\n## Environment\n- App version: v2.4.1\n- OS: Android 14\n- Device: Pixel 8\n\n## Additional Notes\n- Occurs every time."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 5
+    },
+    "brief": {
+      "issue": {
+        "title": "Email alerts toggle resets to on after leaving Settings",
+        "labels": [
+          "bug",
+          "settings"
+        ],
+        "body": "## Summary\nIn Settings > Notifications, toggling 'Email alerts' off does not persist after navigating back and reopening the menu.\n\n## Steps to Reproduce\n1. Open Settings > Notifications\n2. Toggle 'Email alerts' off\n3. Go back\n4. Reopen Settings\n\n## Expected Behavior\nThe 'Email alerts' toggle should remain off.\n\n## Actual Behavior\nThe 'Email alerts' toggle reverts to on after leaving and reopening Settings.\n\n## Environment\n- OS: Android 14\n- App Version: 2.4.1\n- Device: Pixel 8\n\n## Additional Notes\n_Not provided_"
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 5
+    }
+  },
+  {
+    "id": "mixed-06",
+    "raw": {
+      "issue": {
+        "title": "Search returns empty results for queries containing apostrophes",
+        "labels": [
+          "bug",
+          "search",
+          "needs-info"
+        ],
+        "body": "## Summary\nSearching for queries containing an apostrophe (e.g., \"O'Brien\") returns empty results with no error.\n\n## Steps to Reproduce\n1. Enter a query containing an apostrophe (e.g., \"O'Brien\") into search.\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\nSearch returns empty results with no error.\n\n## Environment\nFirefox\n\n## Additional Notes\nAssumed that the expected behavior is for search to return matching results for queries with apostrophes."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": false,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 5
+    },
+    "brief": {
+      "issue": {
+        "title": "Search returns no results for queries containing apostrophes",
+        "labels": [
+          "bug",
+          "search"
+        ],
+        "body": "## Summary\nSearching for terms containing an apostrophe, such as \"O'Brien\", returns no results without displaying an error message.\n\n## Steps to Reproduce\n1. Enter a search query containing an apostrophe (e.g., \"O'Brien\").\n2. Submit or execute the search.\n\n## Expected Behavior\nSearch returns matching results for queries containing apostrophes.\n\n## Actual Behavior\nSearch returns empty results with no error message.\n\n## Environment\n- Browser: Firefox\n\n## Additional Notes\n- Frequency: always\n- Assumptions:\n  - Assumed matching records exist for search terms containing an apostrophe.\n  - Assumed the user expected search results matching the query to be returned."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 5
+    }
+  },
+  {
+    "id": "crash-07",
+    "raw": {
+      "issue": {
+        "title": "App crashes right after splash screen on launch",
+        "labels": [
+          "bug",
+          "crash",
+          "needs-info",
+          "severity: critical"
+        ],
+        "body": "## Summary\nThe app crashes immediately after the splash screen every time. The issue started occurring after the latest update.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\nThe app crashes right after the splash screen every single time.\n\n## Environment\n- Device: Samsung Galaxy S23\n- OS: Android 15\n- App Version: 5.0.2\n\n## Additional Notes\n- Started after the latest update."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": false,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 4
+    },
+    "brief": {
+      "issue": {
+        "title": "App crashes immediately after splash screen on launch",
+        "labels": [
+          "bug",
+          "crash",
+          "severity: high"
+        ],
+        "body": "## Summary\nThe application crashes immediately after the splash screen appears on launch. This behavior occurs consistently after updating to version 5.0.2.\n\n## Steps to Reproduce\n1. Launch the app.\n2. Observe splash screen.\n\n## Expected Behavior\nApp loads successfully past the splash screen.\n\n## Actual Behavior\nApp crashes immediately after the splash screen.\n\n## Environment\n- OS: Android 15\n- Device: Samsung Galaxy S23\n- App Version: 5.0.2\n\n## Additional Notes\n- Frequency: always\n- Assumptions: Assumed the user expected the app to load past the splash screen without crashing."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 5
+    }
+  },
+  {
+    "id": "payment-08",
+    "raw": {
+      "issue": {
+        "title": "User charged twice for order #48213 paid with Visa",
+        "labels": [
+          "bug",
+          "payments",
+          "needs-info"
+        ],
+        "body": "## Summary\nUser reported being charged twice for order #48213 paid with Visa.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\nCharged twice for order #48213.\n\n## Environment\n_Not provided_\n\n## Additional Notes\nUser paid with Visa and requested an immediate refund."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 4
+    },
+    "brief": {
+      "issue": {
+        "title": "Duplicate charge on Visa for order #48213",
+        "labels": [
+          "bug",
+          "payments",
+          "needs-info",
+          "severity: high"
+        ],
+        "body": "## Summary\nThe user was billed twice for order #48213 after completing payment with a Visa card.\n\n## Steps to Reproduce\n1. Place order #48213\n2. Submit payment using a Visa card\n\n## Expected Behavior\nUser should be charged only once for the order.\n\n## Actual Behavior\nUser was charged twice for order #48213.\n\n## Environment\n_Not provided_\n\n## Additional Notes\n- Frequency: once\n- Assumptions: Assumed the user expected to be charged only once for the order."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [
+        "Frequency: once"
+      ],
+      "actionability": 4
+    }
+  },
+  {
+    "id": "slow-09",
+    "raw": {
+      "issue": {
+        "title": "Dashboard takes approximately 30 seconds to load",
+        "labels": [
+          "bug",
+          "performance",
+          "needs-info"
+        ],
+        "body": "## Summary\nThe dashboard takes approximately 30 seconds to load. Other pages load normally.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\nThe dashboard takes around 30 seconds to load.\n\n## Environment\n- Browser: Chrome\n- OS: Mac\n\n## Additional Notes\n- The issue reportedly started occurring on Monday.\n- Other pages are reported to be working fine."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": false,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 3
+    },
+    "brief": {
+      "issue": {
+        "title": "Dashboard takes approximately 30 seconds to load on Chrome for macOS",
+        "labels": [
+          "bug",
+          "performance",
+          "severity: medium"
+        ],
+        "body": "## Summary\nThe dashboard page experiences significant latency, taking around 30 seconds to load since Monday. Other pages load normally.\n\n## Steps to Reproduce\n1. Open Chrome on a Mac.\n2. Navigate to the dashboard.\n\n## Expected Behavior\nDashboard loads in normal time without a 30-second delay.\n\n## Actual Behavior\nDashboard takes approximately 30 seconds to load.\n\n## Environment\n- OS: macOS\n- Browser: Chrome\n\n## Additional Notes\n- Frequency: always\n- Assumptions:\n  - Assumed the user expected the dashboard to load within standard response times, similar to other pages.\n  - Assumed navigating to the dashboard is the primary step to reproduce."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [
+        "Frequency: always"
+      ],
+      "actionability": 4
+    }
+  },
+  {
+    "id": "multi-10",
+    "raw": {
+      "issue": {
+        "title": "Export to CSV button does nothing in Safari 18 on macOS 15",
+        "labels": [
+          "bug",
+          "needs-info"
+        ],
+        "body": "## Summary\nThe export to CSV button does nothing when clicked.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\nThe export to CSV button does nothing (no download, no error).\n\n## Environment\n- Safari 18\n- macOS 15\n\n## Additional Notes\n- Assumption: Exact page or location of the export to CSV button was not specified.\n- Other issue reported: Typo on the pricing page ('monthy' instead of 'monthly')."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": false,
+      "errors_preserved": null,
+      "other_issues_kept": true,
+      "invented_details": [],
+      "actionability": 3
+    },
+    "brief": {
+      "issue": {
+        "title": "Export to CSV button does nothing in Safari 18",
+        "labels": [
+          "bug"
+        ],
+        "body": "## Summary\nThe export to CSV button does not trigger a download or show an error when clicked in Safari 18 on macOS 15.\n\n## Steps to Reproduce\n1. Click the 'Export to CSV' button.\n\n## Expected Behavior\nClicking the button initiates a CSV download.\n\n## Actual Behavior\nThe button does nothing; no download starts and no error message is displayed.\n\n## Environment\n- OS: macOS 15\n- Browser: Safari 18\n\n## Additional Notes\nAssumptions:\n- Assumed the user clicked the export to CSV button.\n- Assumed clicking the button is expected to download a CSV file.\n\nOther issues:\n- Typo on the pricing page displaying 'monthy' instead of 'monthly'."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": true,
+      "invented_details": [],
+      "actionability": 4
+    }
+  },
+  {
+    "id": "error-11",
+    "raw": {
+      "issue": {
+        "title": "ERR_TOKEN_EXPIRED (code 401) when saving draft after leaving editor open",
+        "labels": [
+          "bug",
+          "auth",
+          "needs-info"
+        ],
+        "body": "## Summary\nThe error `ERR_TOKEN_EXPIRED (code 401)` appears when attempting to save a draft after leaving the editor open for a while.\n\n## Steps to Reproduce\n1. Open the editor.\n2. Leave the editor open for a while.\n3. Attempt to save a draft.\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\n`ERR_TOKEN_EXPIRED (code 401)` is displayed.\n\n## Environment\n- OS: Windows 11\n- Browser: Microsoft Edge\n\n## Additional Notes\n_Not provided_"
+      },
+      "has_all_sections": true,
+      "needs_info_correct": false,
+      "errors_preserved": true,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 4
+    },
+    "brief": {
+      "issue": {
+        "title": "ERR_TOKEN_EXPIRED error when saving draft after inactivity",
+        "labels": [
+          "bug",
+          "auth"
+        ],
+        "body": "## Summary\nAn `ERR_TOKEN_EXPIRED (code 401)` error appears when attempting to save a draft after leaving the editor open for a period of time.\n\n## Steps to Reproduce\n1. Open the editor.\n2. Leave the editor open for a while.\n3. Attempt to save the draft.\n\n## Expected Behavior\nThe draft should save successfully.\n\n## Actual Behavior\nAn `ERR_TOKEN_EXPIRED (code 401)` error is displayed when attempting to save a draft.\n\n## Environment\n- OS: Windows 11\n- Browser: Edge\n- App Version: _Not provided_\n- Device: _Not provided_\n\n## Additional Notes\n- Frequency: always\n- Assumptions: Assumed the user expected the draft to save successfully."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": true,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 5
+    }
+  },
+  {
+    "id": "notabug-12",
+    "raw": {
+      "issue": {
+        "title": "User requested callback regarding account",
+        "labels": [
+          "needs-info"
+        ],
+        "body": "## Summary\nUser requested a callback regarding their account.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\n_Not provided_\n\n## Environment\n_Not provided_\n\n## Additional Notes\nThis appears to be a customer support or account assistance request rather than a technical bug report. No further details were provided."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 1
+    },
+    "brief": {
+      "issue": {
+        "title": "User callback request regarding account",
+        "labels": [
+          "needs-info"
+        ],
+        "body": "## Summary\nThe user is requesting a phone callback regarding their account. No technical symptoms or bug details were specified.\n\n## Steps to Reproduce\n_Not provided_\n\n## Expected Behavior\n_Not provided_\n\n## Actual Behavior\n_Not provided_\n\n## Environment\n_Not provided_\n\n## Additional Notes\nAssumptions:\n- Assumed the user is experiencing an issue with their account, but no technical details or symptoms were provided."
+      },
+      "has_all_sections": true,
+      "needs_info_correct": true,
+      "errors_preserved": null,
+      "other_issues_kept": null,
+      "invented_details": [],
+      "actionability": 1
+    }
+  }
+]

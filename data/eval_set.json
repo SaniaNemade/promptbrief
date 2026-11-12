@@ -1,0 +1,37 @@
+[
+  {"id": "vague-01", "text": "app is broken AGAIN!!! fix it pls",
+   "complete": false, "error_messages": [], "other_issue_keywords": []},
+
+  {"id": "rant-02", "text": "honestly so frustrated. every time i try to upload my profile pic it just spins forever and nothing happens. been like this since yesterday. also the dark mode looks weird but whatever",
+   "complete": false, "error_messages": [], "other_issue_keywords": ["dark mode"]},
+
+  {"id": "error-03", "text": "Getting 'Error 503: Service Unavailable' when I hit checkout. Using Chrome on my Windows laptop. Cart has 3 items. Expected it to go to the payment page.",
+   "complete": true, "error_messages": ["Error 503: Service Unavailable"], "other_issue_keywords": []},
+
+  {"id": "partial-04", "text": "login doesnt work on my iphone. it worked last week",
+   "complete": false, "error_messages": [], "other_issue_keywords": []},
+
+  {"id": "detailed-05", "text": "On v2.4.1 (Android 14, Pixel 8): open Settings > Notifications, toggle 'Email alerts' off, go back. Reopen Settings and the toggle is on again. Should stay off. Happens every time.",
+   "complete": true, "error_messages": [], "other_issue_keywords": []},
+
+  {"id": "mixed-06", "text": "hey team! quick one - search returns nothing when i type anything with an apostrophe like O'Brien. no error just empty results. using firefox. thanks!! love the app btw",
+   "complete": true, "error_messages": [], "other_issue_keywords": []},
+
+  {"id": "crash-07", "text": "The app crashes right after the splash screen on my Samsung Galaxy S23 running Android 15, app version 5.0.2. Started after the latest update. Every single time.",
+   "complete": true, "error_messages": [], "other_issue_keywords": []},
+
+  {"id": "payment-08", "text": "charged twice for my order #48213!! paid with visa. need refund asap",
+   "complete": false, "error_messages": [], "other_issue_keywords": []},
+
+  {"id": "slow-09", "text": "dashboard takes like 30 seconds to load since monday. chrome on mac. other pages are fine",
+   "complete": true, "error_messages": [], "other_issue_keywords": []},
+
+  {"id": "multi-10", "text": "Two things: the export to CSV button does nothing (no download, no error) in Safari 18 on macOS 15. Also, typo on the pricing page - 'monthy' instead of 'monthly'.",
+   "complete": true, "error_messages": [], "other_issue_keywords": ["pricing"]},
+
+  {"id": "error-11", "text": "Error: ERR_TOKEN_EXPIRED (code 401) shows up whenever I try to save a draft after leaving the editor open for a while. Edge browser, Windows 11.",
+   "complete": true, "error_messages": ["ERR_TOKEN_EXPIRED"], "other_issue_keywords": []},
+
+  {"id": "notabug-12", "text": "pls call me back about my account",
+   "complete": false, "error_messages": [], "other_issue_keywords": []}
+]

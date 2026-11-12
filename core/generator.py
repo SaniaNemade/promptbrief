@@ -38,6 +38,7 @@ Rules:
 - If a section has no information, write _Not provided_ under it.
 - Put error messages in backticks, exactly as given.
 - Under Additional Notes, mention any assumptions and any other issues, if provided.
+- In a structured brief, 'unknown', null and empty lists mean the user did not say. Never replace them with a guess.
 - Be concise and neutral. No greetings or sign-offs."""
 
 

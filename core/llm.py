@@ -4,6 +4,7 @@ import litellm
 from dotenv import load_dotenv
 
 load_dotenv()  # reads .env so GEMINI_API_KEY and MODEL become available
+litellm.num_retries = 3  # automatically wait and retry if we hit a rate limit
 
 MODEL = os.getenv("MODEL", "gemini/gemini-2.5-flash")
 

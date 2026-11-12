@@ -36,7 +36,14 @@ class BugBrief(BaseModel):
     )
     error_messages: list[str] = Field(default_factory=list, description="Exact error messages or codes the user quoted.")
     environment: Environment = Field(default_factory=Environment)
-    frequency: Literal["always", "sometimes", "once", "unknown"] = "unknown"
+    frequency: Literal["always", "sometimes", "once", "unknown"] = Field(
+        "unknown",
+        description=(
+            "Use 'always' only if the user says it happens every time (e.g. 'every time', 'always', 'whenever'). "
+            "Use 'sometimes' only if they say it is intermittent, and 'once' only if it happened one time. "
+            "Otherwise 'unknown'. Do not guess."
+        ),
+    )
     severity: Literal["critical", "high", "medium", "low", "unknown"] = Field(
         "unknown",
         description=(
